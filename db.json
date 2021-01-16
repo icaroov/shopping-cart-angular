@@ -1,0 +1,47 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "foodName": "Pizza",
+      "restaurant": "Lupeduvi",
+      "price": 5.89,
+      "imageUrl": "https://chicoterra.com/wp-content/uploads/2020/07/pizza.jpg"
+    },
+    {
+      "id": 2,
+      "foodName": "Hamburger",
+      "restaurant": "The H",
+      "price": 30.89,
+      "imageUrl": "https://vocali.com.br/wp-content/uploads/2017/05/Madero.jpg"
+    },
+    {
+      "id": 3,
+      "foodName": "Salada",
+      "restaurant": "Subway",
+      "price": 15,
+      "imageUrl": "https://img.cybercook.com.br/receitas/145/salada-de-rabanete-600x600.jpeg"
+    },
+    {
+      "id": 4,
+      "foodName": "Coxinha",
+      "restaurant": "Bar do Cuzcuz",
+      "price": 1.5,
+      "imageUrl": "https://img.cybercook.com.br/receitas/845/coxinha-de-soja-1-623x350.jpeg"
+    },
+    {
+      "id": 5,
+      "foodName": "Sushi",
+      "restaurant": "Daikon",
+      "price": 1500.5,
+      "imageUrl": "https://www.revistamenu.com.br/wp-content/uploads/2020/01/sushirobo-1050x580.jpg"
+    },
+    {
+      "id": 6,
+      "foodName": "Torta",
+      "restaurant": "La Suissa",
+      "price": 100,
+      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2018/06/Tortas-Doces-e-Sobremesas-10.jpg"
+    }
+  ],
+  "cart": []
+}

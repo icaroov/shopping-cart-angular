@@ -28,13 +28,16 @@ export class ProductItemComponent implements OnInit {
   handleAddToCart() {
     this.cartService.addProductToCart(this.productItem).subscribe(() => {
       this.msg.sendMsg(this.productItem)
-      console.log('Id do produto:', this.productItem.id)
     });
   }
 
   handleRemoveToCart() {
     this.cartService.removeProductToCart(this.productItem.id).subscribe(() => {
-      console.log('produto deletado:', this.productItem.id)
+      this.refresh()
     })
   }
+
+  refresh(): void {
+    window.location.reload();
+}
 }
